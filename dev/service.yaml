@@ -7,7 +7,7 @@ spec:
   selector:
     app: myapp-rollout
   ports:
-  - port: 80
+  - port: 8080
     targetPort: 8080
     nodeport: 30785
   
