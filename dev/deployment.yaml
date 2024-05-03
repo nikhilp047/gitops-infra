@@ -26,6 +26,6 @@ spec:
     spec:
       containers:
       - name: myapp-rollout
-        image: nikhilp047/todoapp:0a0a0962fe72b204864d4c1124858831031be951
+        image: nikhilp047/todoapp:e89e784d6c72001be6e657e4cfeb571aaf2baca4
         ports:
         - containerPort: 8080 #test
